@@ -30,7 +30,7 @@ Amazon S3 is one of the most reliable and cost-effective ways to do this, and th
 
 📸 Screenshot:  
 
-<img width="1920" height="941" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/0c0ff5f7-38ae-485e-8a21-8e8b3fc346cf" />
+<img width="1920" height="877" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/cc5ab4d0-ed98-4b3c-a363-05ae841fd546" />
 
 ----
 ### 2️⃣ Upload Website Files
@@ -38,7 +38,7 @@ Amazon S3 is one of the most reliable and cost-effective ways to do this, and th
 
 📸 Screenshot:  
 
-<img width="1920" height="939" alt="Screenshot (300)" src="https://github.com/user-attachments/assets/97cbff58-791b-4537-b8e9-8ced08f8514d" />
+<img width="1920" height="865" alt="Screenshot (300)" src="https://github.com/user-attachments/assets/158d9a21-a525-4fde-88e7-0eb28963b747" />
 
 ---
 
@@ -48,14 +48,14 @@ Amazon S3 is one of the most reliable and cost-effective ways to do this, and th
 
 📸 Screenshot:  
 
-<img width="1920" height="968" alt="Screenshot (301)" src="https://github.com/user-attachments/assets/cc3d3e07-06b3-417e-9493-025cbd7d8d01" />
+<img width="1920" height="882" alt="Screenshot (301)" src="https://github.com/user-attachments/assets/e416af4d-b167-484d-a4b6-e2abd413403b" />
 
 -----
 
 
 📸 Screenshot:  
 
-<img width="1920" height="1080" alt="Screenshot (302)" src="https://github.com/user-attachments/assets/c877c4c6-7c57-4de2-a495-dca27b0be2e3" />
+<img width="1920" height="1080" alt="Screenshot (302)" src="https://github.com/user-attachments/assets/e7eb7eb2-e1f1-4173-9ac0-27ad1c22c2df" />
 
 This happened because:  
 - My **bucket policy** wasn’t set to allow public read access, OR  
@@ -96,4 +96,6 @@ To confirm the policy and permissions were working correctly, I attempted to **d
 AWS displayed a warning/confirmation prompt, showing that file deletion has consequences since it is tied to the website endpoint.  
 
 📸 Screenshot:  
-<img width="1920" height="950" alt="Screenshot (303)" src="https://github.com/user-attachments/assets/f7b46adb-d337-4321-a94b-ea0461b01368" />
+<img width="1920" height="882" alt="Screenshot (303)" src="https://github.com/user-attachments/assets/d6b47ac7-368a-4c3b-8f4d-805ef0696502" />
+
+
