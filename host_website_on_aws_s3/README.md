@@ -29,8 +29,7 @@ Amazon S3 is one of the most reliable and cost-effective ways to do this, and th
 
 📸 Screenshot:  
 
-![Screenshot 299](host_website_on_aws_s3/screeshot/Screenshoot(299).png)
-
+![Screenshot 299](screenshot/Screenshot%20(299).png)
 
 ----
 ### 2️⃣ Upload Website Files
