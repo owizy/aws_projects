@@ -30,9 +30,7 @@ Amazon S3 is one of the most reliable and cost-effective ways to do this, and th
 
 📸 Screenshot:  
 
-<img width="1920" height="877" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/cc5ab4d0-ed98-4b3c-a363-05ae841fd546" />
-
-![Image](https://github.com/user-attachments/assets/357b04bd-fb80-4c7c-a215-627ea2c8ca76)
+![screenshot](https://github.com/user-attachments/assets/cc5ab4d0-ed98-4b3c-a363-05ae841fd546?raw=true)
 
 ----
 ### 2️⃣ Upload Website Files
@@ -40,7 +38,7 @@ Amazon S3 is one of the most reliable and cost-effective ways to do this, and th
 
 📸 Screenshot:  
 
-<img width="1920" height="865" alt="Screenshot (300)" src="https://github.com/user-attachments/assets/158d9a21-a525-4fde-88e7-0eb28963b747" />
+<img width="1920" height="865" alt="Screenshot (300)" src="https://github.com/user-attachments/assets/158d9a21-a525-4fde-88e7-0eb28963b747?raw=true" />
 
 ---
 
@@ -50,14 +48,14 @@ Amazon S3 is one of the most reliable and cost-effective ways to do this, and th
 
 📸 Screenshot:  
 
-<img width="1920" height="882" alt="Screenshot (301)" src="https://github.com/user-attachments/assets/e416af4d-b167-484d-a4b6-e2abd413403b" />
+<img width="1920" height="882" alt="Screenshot (301)" src="https://github.com/user-attachments/assets/e416af4d-b167-484d-a4b6-e2abd413403b?raw=true" />
 
 -----
 
 
 📸 Screenshot:  
 
-<img width="1920" height="1080" alt="Screenshot (302)" src="https://github.com/user-attachments/assets/e7eb7eb2-e1f1-4173-9ac0-27ad1c22c2df" />
+<img width="1920" height="1080" alt="Screenshot (302)" src="https://github.com/user-attachments/assets/e7eb7eb2-e1f1-4173-9ac0-27ad1c22c2df?raw=true" />
 
 This happened because:  
 - My **bucket policy** wasn’t set to allow public read access, OR  
@@ -98,6 +96,6 @@ To confirm the policy and permissions were working correctly, I attempted to **d
 AWS displayed a warning/confirmation prompt, showing that file deletion has consequences since it is tied to the website endpoint.  
 
 📸 Screenshot:  
-<img width="1920" height="882" alt="Screenshot (303)" src="https://github.com/user-attachments/assets/d6b47ac7-368a-4c3b-8f4d-805ef0696502" />
+<img width="1920" height="882" alt="Screenshot (303)" src="https://github.com/user-attachments/assets/d6b47ac7-368a-4c3b-8f4d-805ef0696502?raw=true" />
 
 
