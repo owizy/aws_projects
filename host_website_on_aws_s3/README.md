@@ -63,10 +63,10 @@ This happened because:
 ---
 
 #### ✅ How I Fixed It
-1. Went to the **Permissions** tab of my S3 bucket.  
-2. Updated the **Bucket Policy** to allow public `GetObject` access (see JSON in Step 4).  
-3. Made sure **Block Public Access** settings were disabled.  
-4. Re-uploaded `index.html` with public read permissions.  
+To resolve this, I updated the **access settings** of the files inside my bucket.  
+Using **ACLs (Access Control Lists)**, I made my bucket’s files public.  
+
+Once I checked my **S3 bucket endpoint again**, the webpage loaded up successfully 🎉  
 
 
 ---
