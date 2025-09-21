@@ -25,7 +25,7 @@ Amazon S3 is one of the most reliable and cost-effective ways to do this, and th
 ### 1️⃣ Create an S3 Bucket
 - Log in to **AWS Console**  
 - Create a bucket (name must be globally unique)  
--For Object Ownership, choose ACLs enabled.
+- For Object Ownership, choose ACLs enabled.
 - Uncheck **Block all public access**  
 
 📸 Screenshot:  
