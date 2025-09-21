@@ -3,7 +3,9 @@
 This project demonstrates how I hosted a **static website** using **Amazon S3**.  
 It was part of my cloud journey, where I explored deploying websites in a serverless, scalable way.
 
+
 ---
+
 
 ## ✨ Why This Project?
 I wanted to learn how to take a website from my computer and **make it live on the internet** using the cloud.  
@@ -27,9 +29,7 @@ Amazon S3 is one of the most reliable and cost-effective ways to do this, and th
 
 📸 Screenshot:  
 
-
-<img width="1920" height="939"   alt="Screenshot (299)" src="https://github.com/user-attachments/assets/59ebf877-05a1-48a2-963c-75412b1ab120" />
-
+![Screenshot 299](aws_projects/host_website_on_aws_s3/screeshot/screenshot-299.png)
 
 ----
 ### 2️⃣ Upload Website Files
