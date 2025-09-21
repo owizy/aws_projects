@@ -28,14 +28,16 @@ Amazon S3 is one of the most reliable and cost-effective ways to do this, and th
 📸 Screenshot:  
 
 
----<img width="1920" height="941" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/59ebf877-05a1-48a2-963c-75412b1ab120" />
+<img width="1920" height="941" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/59ebf877-05a1-48a2-963c-75412b1ab120" />
 
+----
 ### 2️⃣ Upload Website Files
 - Upload `index.html`, `folder`  
 
 📸 Screenshot:  
 
 <img width="1920" height="939" alt="Screenshot (300)" src="https://github.com/user-attachments/assets/97cbff58-791b-4537-b8e9-8ced08f8514d" />
+
 ---
 
 ### 3️⃣ Enable Static Website Hosting
@@ -45,9 +47,11 @@ Amazon S3 is one of the most reliable and cost-effective ways to do this, and th
 📸 Screenshot:  
 
 <img width="1920" height="968" alt="Screenshot (301)" src="https://github.com/user-attachments/assets/cc3d3e07-06b3-417e-9493-025cbd7d8d01" />
------
-📸 Screenshot:  
 
+-----
+
+
+📸 Screenshot:  
 
 <img width="1920" height="1080" alt="Screenshot (302)" src="https://github.com/user-attachments/assets/c877c4c6-7c57-4de2-a495-dca27b0be2e3" />
 
