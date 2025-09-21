@@ -29,7 +29,7 @@ Amazon S3 is one of the most reliable and cost-effective ways to do this, and th
 
 📸 Screenshot:  
 
-![Screenshot (299)](https://github.com/user-attachments/assets/59ebf877-05a1-48a2-963c-75412b1ab120)
+<img width="1920" height="941" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/0c0ff5f7-38ae-485e-8a21-8e8b3fc346cf" />
 
 ----
 ### 2️⃣ Upload Website Files
