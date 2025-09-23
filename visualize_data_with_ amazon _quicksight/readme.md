@@ -1,8 +1,8 @@
 
 # 📊 Visualize Data with Amazon QuickSight
 
-This project demonstrates how I used **Amazon S3** and **Amazon QuickSight** to turn a raw dataset into a professional dashboard.  
-It’s a full, step-by-step guide — from creating the bucket to troubleshooting issues like the common `403 Forbidden` error.
+This project demonstrates how I used **Amazon S3** and **Amazon QuickSight** to turn a raw dataset into a professional dashboard. 
+
 
 ---
 
@@ -110,5 +110,7 @@ Example: COuuntry, tittle ,listin.
 Add filters (Year, Category).
 
 Format and rename visuals for clarity.
+
 📸 Screenshot:
+
 <img width="842" height="790" alt="Screenshot 2025-09-22 231649" src="https://github.com/user-attachments/assets/8f444c3f-6532-486d-b8b1-c543ef23f85c?raw=true" />
