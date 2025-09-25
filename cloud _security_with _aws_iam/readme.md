@@ -32,13 +32,13 @@ The goal is to implement **least privilege access**, organize resources for **De
 4. Configure storage and networking (default is fine for demo).  
 5. Add **Name and tags**:
    - **Development instance**:
-     - `Name=WebServer-Dev`
+     - `Name=dev_instance_env_1`
      - `resource types=instance`
    
      - `Env=Development`
     - `resource types=instance`
    - **Production instance**: 
-     - `Name=WebServer-Prod`
+     - `Name=prod_instance_env_1`
      - `resource types=instance`
    
      - `Env=Production`
