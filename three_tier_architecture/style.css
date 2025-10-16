@@ -1,0 +1,166 @@
+/* Reset / Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #12121F; /* darker base background */
+  color: #D0D0E0; /* softer light text */
+  overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: #1F1F2F;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar h2 {
+  color: #C5A8FF; /* softer purple accent */
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+.sidebar ul {
+  list-style: none;
+  flex: 1;
+}
+.sidebar ul li {
+  margin: 1rem 0;
+}
+.sidebar ul li a {
+  color: #B0B0C0;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+.sidebar ul li a:hover {
+  color: #D3BBFF;
+}
+
+/* Main content */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #14141F;
+}
+header {
+  margin-bottom: 2rem;
+}
+header h1 {
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+
+/* Fetch section */
+.fetch-section {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+.fetch-section label {
+  color: #B8B8C8;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+.fetch-section input[type="number"] {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #2A2A3C;
+  color: #E0E0E0;
+  width: 120px;
+  margin-right: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+.fetch-section input:focus {
+  outline: none;
+  border: 1px solid transparent;
+  box-shadow: 0 0 0 3px rgba(197, 168, 255, 0.5);
+  background-color: #2A2A3C;
+}
+
+/* Button styles */
+.btn {
+  padding: 0.65rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-position 0.4s ease;
+  background-size: 200% 200%;
+}
+
+/* Primary gradient button (lighter purple gradient) */
+.btn.primary {
+  background: linear-gradient(135deg, #C5A8FF, #E1CFFF);
+  color: #1F1F2F;
+  background-position: left center;
+}
+
+
+/* Display section */
+.display-section h2 {
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+}
+#userList {
+  list-style: none;
+}
+#userList li {
+  background-color: #1F1F2F;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  color: #E0E0E0;
+}
+/* User card styling */
+#userList li {
+  background-color: #1F1F2F;
+  margin-bottom: 0.75rem;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  color: #E0E0E0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#userList li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(197, 168, 255, 0.2);
+}
+
+/* User detail lines */
+#userList li strong {
+  color: #C5A8FF;
+  font-weight: 600;
+  display: inline-block;
+  width: 80px;
+}
+
+#userList li br + strong {
+  margin-top: 0.5rem;
+  display: block;
+}
+
+/* Scrollbar styling */
+.main-content::-webkit-scrollbar {
+  width: 8px;
+}
+.main-content::-webkit-scrollbar-track {
+  background: #12121F;
+}
+.main-content::-webkit-scrollbar-thumb {
+  background-color: #C5A8FF;
+  border-radius: 4px;
+}
