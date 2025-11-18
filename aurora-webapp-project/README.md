@@ -335,11 +335,11 @@ Aurora exposes separate endpoints for readers and writers.
 - End-to-End Data Flow
   Browser → EC2 Web App → Aurora Writer → Stored Rows
 
-## 📁 Repository Structure 
-## 📦 aurora-webapp-project
-## ├── README.md
-## ├── webapp/
-##   ├── SamplePage.php
-##   └── inc/dbinfo.inc
+# 📁 Repository Structure 
+ 📦 aurora-webapp-project
+ ├── README.md
+ ├── webapp/
+   ├── SamplePage.php
+   └── inc/dbinfo.inc
 
    
