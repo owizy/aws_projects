@@ -316,3 +316,30 @@ This confirms your EC2 → Aurora → Web App connection works end-to-end.
 
 <img width="903" height="898" alt="Screenshot 2025-11-18 005846" src="https://github.com/user-attachments/assets/068bf799-a83a-4fac-a1af-b3c7650097ba" />
 
+
+
+----
+##### 🧠 Key Concepts Learned
+- EC2 Web Server
+A virtual machine that runs your web application.
+
+- Amazon Aurora
+A highly available, scalable relational database that automatically creates replicas and manages failover.
+
+- PHP + MySQL Client
+Allows your application to send SQL commands to Aurora.
+
+-Database Endpoints
+Aurora exposes separate endpoints for readers and writers.
+
+- End-to-End Data Flow
+  Browser → EC2 Web App → Aurora Writer → Stored Rows
+
+## 📁 Repository Structure 
+## 📦 aurora-webapp-project
+## ├── README.md
+## ├── webapp/
+##   ├── SamplePage.php
+##   └── inc/dbinfo.inc
+
+   
