@@ -319,7 +319,7 @@ This confirms your EC2 → Aurora → Web App connection works end-to-end.
 
 
 ----
-##### 🧠 Key Concepts Learned
+### 🧠 Key Concepts Learned
 - EC2 Web Server
 A virtual machine that runs your web application.
 
@@ -329,17 +329,21 @@ A highly available, scalable relational database that automatically creates repl
 - PHP + MySQL Client
 Allows your application to send SQL commands to Aurora.
 
--Database Endpoints
+- Database Endpoints
 Aurora exposes separate endpoints for readers and writers.
 
 - End-to-End Data Flow
   Browser → EC2 Web App → Aurora Writer → Stored Rows
 
-# 📁 Repository Structure 
+
+### 📁 Repository Structure 
+
+```
  📦 aurora-webapp-project
  ├── README.md
  ├── webapp/
    ├── SamplePage.php
    └── inc/dbinfo.inc
 
+```
    
