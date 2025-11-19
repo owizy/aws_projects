@@ -231,15 +231,14 @@ aws dynamodb delete-table --table-name NextWorkStudents
 - All items inside each table are deleted automatically.
 ---
 #### Key Concepts
+
 - DynamoDB : A fully managed non-relational (NoSQL) key-value and document database.
 
-- Attributes :Individual pieces of data inside items. Each item can have its own unique set of attributes.
+- Attributes : Individual pieces of data inside items. Each item can have its own unique set of attributes.
 
-- Partition Key :The primary key used to distribute and locate data efficiently.
+- Partition Key : The primary key used to distribute and locate data efficiently.
 
-- Sort Key :A secondary part of the primary key, allowing multiple items with the same partition key.
-
-- RCUs/WCUs
+- Sort Key : A secondary part of the primary key, allowing multiple items with the same partition key.
 
 - Read Capacity Units : how fast data can be read
 
@@ -247,4 +246,4 @@ aws dynamodb delete-table --table-name NextWorkStudents
 
   We set both to 1 to stay within the free tier.
 
-- AWS CloudShell :Browser-based shell with AWS CLI pre-installed—perfect for creating tables and loading data quickly.
+- AWS CloudShell : Browser-based shell with AWS CLI pre-installed—perfect for creating tables and loading data quickly.
