@@ -5,7 +5,7 @@
 
 ## 📌 Overview
 
-###### You’ve just joined the example engineering team as a Data Engineer. Your job in this project is to prepare DynamoDB so it can store the platform’s community data: projects, videos, comments, forums, students—everything.
+###### You’ve just joined the xyz engineering team as a Data Engineer. Your job in this project is to prepare DynamoDB so it can store the platform’s community data: projects, videos, comments, forums, students—everything.
 
 By the end, you’ll have:
 
