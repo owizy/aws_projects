@@ -47,8 +47,8 @@ The full pipeline:
 
 | Tool / Service | What It Does in This Project |
 |---|---|
-| **Amazon EKS** | Managed Kubernetes control plane — orchestrates containers across nodes |
-| **Amazon ECR** | Private container registry — stores the Docker image for EKS to pull |
+| **Amazon EKS** | Managed Kubernetes control plane orchestrates containers across nodes |
+| **Amazon ECR** | Private container registry  stores the Docker image for EKS to pull |
 | **Amazon EC2** | Acts as the control environment for running CLI commands |
 | **Docker** | Builds the container image from the Flask app's Dockerfile |
 | **eksctl** | CLI tool for creating and managing the EKS cluster |
@@ -64,7 +64,7 @@ The full pipeline:
 
 ### Step 1  Launch an EC2 Instance and Create the EKS Cluster
 
-The first challenge: you need a machine with the right credentials to talk to AWS and spin up a Kubernetes cluster. Rather than configuring the AWS CLI on a local machine, I launched an EC2 instance (`t3.micro`, Amazon Linux 2023) and attached an IAM role with `AdministratorAccess` — giving the instance permission to create and manage AWS resources on my behalf.
+The first challenge: you need a machine with the right credentials to talk to AWS and spin up a Kubernetes cluster. Rather than configuring the AWS CLI on a local machine, I launched an EC2 instance (`t3.micro`, Amazon Linux 2023) and attached an IAM role with `AdministratorAccess`  giving the instance permission to create and manage AWS resources on my behalf.
 
 From there, I installed `eksctl`, the purpose-built CLI for EKS cluster management:
 
